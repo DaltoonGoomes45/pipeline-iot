@@ -317,3 +317,4 @@ A arquitetura também pode servir de base para futuras implementações com inge
 - Plotly: https://plotly.com/python/
 - SQLAlchemy: https://www.sqlalchemy.org/
 
+
