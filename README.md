@@ -318,3 +318,4 @@ A arquitetura também pode servir de base para futuras implementações com inge
 - SQLAlchemy: https://www.sqlalchemy.org/
 
 
+
