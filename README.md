@@ -1,4 +1,4 @@
-
+﻿
 # 🌡️ Pipeline de Dados IoT com Docker e PostgreSQL
 
 ## 📋 Sobre o Projeto
@@ -60,7 +60,7 @@ Projeto/
 │   └── IOT-temp.csv
 ├── docs/
 │   └── screenshots/
-│       ├── dashboard_indicadores.png
+│       ├── dashboard_dados_consolidados.png
 │       ├── grafico_temperatura_media.png
 │       ├── grafico_leituras_hora.png
 │       └── grafico_temperaturas_diarias.png
@@ -114,8 +114,8 @@ Instalar:
 ### 2. Obter o projeto
 
 ```powershell
-git clone URL_DO_REPOSITORIO
-cd NOME_DO_REPOSITORIO
+git clone https://github.com/DaltoonGoomes45/pipeline-iot.git
+cd pipeline-iot
 ```
 
 Substituir a URL pelo endereço real do GitHub.
@@ -232,7 +232,7 @@ Permite identificar variações térmicas e possíveis situações de aqueciment
 
 ## 📈 Dashboard
 
-### Indicadores e visão geral
+### Dados consolidados
 
 ![Dados consolidados](docs/screenshots/dashboard_dados_consolidados.png)
 
@@ -284,7 +284,7 @@ git commit -m "Projeto inicial: Pipeline de Dados IoT"
 Associar o repositório remoto:
 
 ```powershell
-git remote add origin URL_DO_REPOSITORIO
+git remote add origin https://github.com/DaltoonGoomes45/pipeline-iot.git
 ```
 
 Enviar o projeto:
@@ -316,3 +316,4 @@ A arquitetura também pode servir de base para futuras implementações com inge
 - Streamlit: https://docs.streamlit.io/
 - Plotly: https://plotly.com/python/
 - SQLAlchemy: https://www.sqlalchemy.org/
+
